@@ -24,6 +24,7 @@ body {
   flex: 1 1 40%;
   
   min-width: 30vmax;
+  min-height: 11rem;
   position: relative;
 
   background: url(/extras/halie-west-trees.jpg);
@@ -34,11 +35,11 @@ body {
 .logo-banner {
   height: 10rem;
   position: absolute;
-  top: 15vmin;
+  top: 15%;
   width: 100%;
 
   font-family: norse;
-  font-size: max(10vw);
+  font-size: max(10vw, 6rem);
   color: whitesmoke;
 
   display: flex;
@@ -49,9 +50,11 @@ body {
 }
 
 .left-side-footer {
-  margin-top: auto;
   padding: 1rem;
-  
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+
   text-align: center;
   color: whitesmoke;
 
@@ -77,4 +80,5 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  min-height: 60vh;
 }
