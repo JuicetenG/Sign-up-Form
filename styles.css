@@ -33,13 +33,13 @@ body {
 }
 
 .logo-banner {
-  height: max(11vw, 8rem);
+  height: max(11vw, 7rem);
   position: absolute;
   top: 20%;
   width: 100%;
 
   font-family: norse;
-  font-size: max(8vw, 6rem);
+  font-size: max(8vw, 5rem);
   color: whitesmoke;
 
   display: flex;
@@ -70,7 +70,7 @@ body {
 }
 
 .logo {
-  height: max(9vw, 7rem);
+  height: max(9vw, 6rem);
   padding-left: .5rem;
 }
 
