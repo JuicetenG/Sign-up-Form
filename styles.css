@@ -9,7 +9,7 @@ body {
   height: 100vh;
 }
 
-@font-face{
+@font-face {
   font-family: norse;
   src: url('extras/Norse-Bold.otf'); 
 }
@@ -32,7 +32,7 @@ body {
   
   font-family: norse;
   font-size: 7rem;
-  color: white;
+  color: whitesmoke;
 
   display: flex;
   justify-content: center;
@@ -41,7 +41,21 @@ body {
   background-color: rgba(0, 45, 0, 0.85);
 }
 
-.logo{
+.left-side-footer {
+  margin-top: auto;
+  padding: 1rem;
+  
+  text-align: center;
+  color: whitesmoke;
+
+  background-color: rgba(0, 45, 0, 0.85);
+}
+
+.footer-link {
+  color: whitesmoke;
+}
+
+.logo {
   height: 9rem;
 }
 
