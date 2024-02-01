@@ -6,7 +6,11 @@
 
 body { 
   display: flex;
+  flex-wrap: wrap;
+
   height: 100vh;
+
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 @font-face {
@@ -17,8 +21,10 @@ body {
 .left-side {
   display: flex;
   flex-direction: column;
-
-  width: 40%;
+  flex: 1 1 40%;
+  
+  min-width: 30vmax;
+  position: relative;
 
   background: url(/extras/halie-west-trees.jpg);
   background-size: cover;
@@ -26,12 +32,13 @@ body {
 }
 
 .logo-banner {
-  margin-top: 20vh;
   height: 10rem;
+  position: absolute;
+  top: 15vmin;
   width: 100%;
-  
+
   font-family: norse;
-  font-size: 7rem;
+  font-size: max(10vw);
   color: whitesmoke;
 
   display: flex;
@@ -55,13 +62,18 @@ body {
   color: whitesmoke;
 }
 
+.footer-link:visited {
+  color: whitesmoke;
+}
+
 .logo {
   height: 9rem;
+  padding-left: .5rem;
 }
 
 .right-side {
-  width: 60%;
   display: flex;
+  flex: 1 1 60%;
   flex-direction: column;
   align-items: center;
   justify-content: center;
