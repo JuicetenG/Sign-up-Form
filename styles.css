@@ -27,7 +27,7 @@ body {
   min-height: 11rem;
   position: relative;
 
-  background: url('/extras/halie-west-trees.jpg');
+  background: url(extras/halie-west-trees.jpg);
   background-size: cover;
   background-position: center;
 }
