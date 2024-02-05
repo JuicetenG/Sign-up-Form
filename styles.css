@@ -103,16 +103,16 @@ h2 {
 }
 
 input {
+  appearance: none;
+ 
   height: 1.75rem;
   width: 14rem;
-  appearance: none;
   border: 1px solid lightgrey;
   border-radius: 4px;
 }
 
-input:focus{
-  border: 1px solid navy;
-  box-shadow: 2px;
+input:focus {
+  appearance: none;
 }
 
 label {
