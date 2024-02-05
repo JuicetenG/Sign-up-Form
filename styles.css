@@ -6,10 +6,7 @@
 
 body { 
   display: flex;
-  flex-wrap: wrap;
-
   height: 100vh;
-
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -20,11 +17,9 @@ body {
 
 .left-side {
   display: flex;
-  flex-direction: column;
   flex: 1 1 40%;
   
-  min-width: 30vmax;
-  min-height: 11rem;
+  min-width: 32vmax;
   position: relative;
 
   background: url(extras/halie-west-trees.jpg);
@@ -33,13 +28,13 @@ body {
 }
 
 .logo-banner {
-  height: max(11vw, 7rem);
+  height: 10rem;
   position: absolute;
   top: 20%;
   width: 100%;
 
   font-family: norse;
-  font-size: max(8vw, 5rem);
+  font-size: 5rem;
   color: whitesmoke;
 
   display: flex;
@@ -70,27 +65,102 @@ body {
 }
 
 .logo {
-  height: max(9vw, 6rem);
+  height: 7rem;
   padding-left: .5rem;
 }
 
 .right-side {
   flex: 1 1 60%;
-  min-height: 60vh;
-  padding-left: 3rem;
 } 
 
-.form-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 3rem;
-  height: 100vh;
+.intro, .form-controls-container, .button-container {
+  padding-left: 3rem;
 }
 
-.form-row-1, .form-row-2, .form-row-3 {
+.intro-block {
+  height: 34vh;
+  font-size: 1.3rem;
+  padding-top: 9rem;
+  padding-left: 3rem;
+  background-color: #f8f8fa;
+}
+
+.intro-text {
+  width: 50ch;
+}
+
+h2 {
+  font-weight: lighter;
+  font-size: 2rem;
+}
+
+.form-controls-container {
+  height: 33vh;
   display: flex;
-} 
+  flex-direction: column;
+  gap: 1rem;
+  padding-top: 1.5rem;
+}
+
+input {
+  height: 1.75rem;
+  width: 14rem;
+  appearance: none;
+  border: 1px solid lightgrey;
+  border-radius: 4px;
+}
+
+input:focus{
+  border: 1px solid navy;
+  box-shadow: 2px;
+}
+
+label {
+  font-size: .9rem;
+}
+
+.row {
+  display: flex;
+  gap: 4rem;
+  width: 25rem;
+}
+
+.button-container {
+  height: 33vh;
+  padding-top: 2rem;
+  background-color: #f8f8fa;
+}
+
+button {
+  appearance: none;
+  border: none;
+  border-radius: 6px;
+  background-color: #596D48;
+  width: 12rem;
+  height: 2.5rem;
+
+  font-family: 'franklin gothic medium';
+  font-size: 1rem;
+  color: whitesmoke;
+}
+
+.button-text {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+
+.button-link {
+  text-decoration: none;
+  color: #596D48;
+}
+
+.button-link:visited {
+  text-decoration: none;
+  color: #596D48;
+}
+
+
+
 
 
 
