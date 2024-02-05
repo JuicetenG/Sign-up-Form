@@ -114,10 +114,6 @@ input {
   padding-top: 0.15rem;
 }
 
-input[type="password"] {
-  border: 2px solid #a70000;
-}
-
 input:focus {
  outline: none;
  border: 2px solid #005b96;
@@ -134,6 +130,10 @@ label {
   width: 25rem;
 }
 
+.password-error {
+  border: 2px solid #a70000;
+}
+
 .button-container {
   height: 33vh;
   padding-top: 2rem;
@@ -146,10 +146,20 @@ button {
   background-color: #596D48;
   width: 12rem;
   height: 2.5rem;
+  box-shadow: #5c5c5c 2px 2px 4px;
 
   font-family: 'franklin gothic medium';
   font-size: 1rem;
   color: whitesmoke;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:active {
+  transform: translateY(2px);
+  box-shadow: #5c5c5c 0px 0px 4px;
 }
 
 .button-text {
@@ -166,9 +176,3 @@ button {
   text-decoration: none;
   color: #596D48;
 }
-
-
-
-
-
-
