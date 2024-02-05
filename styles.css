@@ -10,7 +10,7 @@ body {
 
   height: 100vh;
 
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 @font-face {
@@ -75,10 +75,22 @@ body {
 }
 
 .right-side {
-  display: flex;
   flex: 1 1 60%;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   min-height: 60vh;
+  padding-left: 3rem;
+} 
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3rem;
+  height: 100vh;
 }
+
+.form-row-1, .form-row-2, .form-row-3 {
+  display: flex;
+} 
+
+
+
