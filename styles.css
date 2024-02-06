@@ -124,7 +124,7 @@ input:focus {
 }
 
 label {
-  font-size: .9rem;
+  font-size: 0.9rem;
 }
 
 .row {
@@ -135,6 +135,16 @@ label {
 
 .password-error {
   border: 2px solid #a70000;
+}
+
+.password-error:focus {
+  border: 2px solid #a70000;
+}
+
+#errorMessage {
+  font-size: 0.8rem;
+  color: #a70000;
+  margin-top: -0.95rem;
 }
 
 .button-container {
@@ -164,6 +174,14 @@ button:hover {
 button:active {
   transform: translateY(2px);
   box-shadow: #5c5c5c 0px 0px 4px;
+}
+
+button:disabled {
+  opacity: 0.5;
+}
+
+button:disabled:hover {
+  cursor: default;
 }
 
 .button-text {
